@@ -1,16 +1,17 @@
 # RN Bootstrap Buttons
   Bootstrap style buttons for react native
 
+![bootstrap buttons](https://raw.githubusercontent.com/sahlhoff/rn-bootstrap-buttons/master/button-examples.png)
+  
 ## Installation
 
-````
+```
   npm install rn-bootstrap-buttons --save
-
-````  
+```
 
 ## Usage
 
-````
+```js
 var Button = require('rn-bootstrap-buttons');
   
 class helloWorld extends Component {
@@ -47,4 +48,4 @@ class helloWorld extends Component {
   
 }
 
-````  
+```  
