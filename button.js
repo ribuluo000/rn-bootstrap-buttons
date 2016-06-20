@@ -1,11 +1,11 @@
 'use-strict';
 
-var React = require('react');
-var {
+import React = require('react');
+import {
   StyleSheet,
   Text,
   TouchableOpacity
-} = React;
+} from 'react-native';
 
 var Button = React.createClass({
   
