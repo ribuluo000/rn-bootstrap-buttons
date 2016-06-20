@@ -1,6 +1,6 @@
 'use-strict';
 
-var React = require('react-native');
+var React = require('react');
 var {
   StyleSheet,
   Text,
@@ -16,7 +16,7 @@ var Button = React.createClass({
 
     
     return (
-        <TouchableOpacity {...buttonProps} style={this.getButtonStyle()}>
+      <TouchableOpacity {...buttonProps} style={this.getButtonStyle()}>
         <Text style={this.getTextStyle()}>
           {this.props.children}
         </Text>
