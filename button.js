@@ -11,7 +11,8 @@ var Button = React.createClass({
   
   render() {
     var buttonProps = {
-      onPress: this.props.onPress
+      onPress: this.props.onPress,
+      {...this.props}
     };
 
     
